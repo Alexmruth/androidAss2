@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Assignment1</string>
+    <string name="melbourne">Melbourne</string>
+    <string name="sydney">Sydney</string>
+    <string name="newyork">New York</string>
+    <string name="perth">Perth</string>
+</resources>
