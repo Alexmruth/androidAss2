@@ -1,7 +1,21 @@
 <resources>
     <string name="app_name">Assignment1</string>
+
+    <string name="aus">Australia</string>
+    <string name="adelaide">Adelaide</string>
+    <string name="brisbane">Brisbane</string>
+    <string name="canberra">Canberra</string>
+    <string name="darwin">Darwin</string>
+    <string name="hobart">Hobart</string>
     <string name="melbourne">Melbourne</string>
-    <string name="sydney">Sydney</string>
-    <string name="newyork">New York</string>
     <string name="perth">Perth</string>
+    <string name="sydney">Sydney</string>
+
+    <string name="newyork">New York</string>
+
+    <string name="home_btn">Home</string>
+    <string name="worldclock_btn">World Clock</string>
+    <string name="settings_btn">Settings</string>
+
+    <string name="background">Background</string>
 </resources>
