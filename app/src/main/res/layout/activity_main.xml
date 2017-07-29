@@ -3,11 +3,19 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="130dp"
+        android:src="@drawable/clock" />
+
     <TextClock
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:gravity="center"
-        android:paddingTop="250dp"
+        android:paddingTop="20dp"
         android:textSize="40sp" />
     <TextView
         android:layout_height="wrap_content"

@@ -18,4 +18,6 @@
     <string name="settings_btn">Settings</string>
 
     <string name="background">Background</string>
+    <string name="hometimesetting">Home page timezone</string>
+
 </resources>
