@@ -4,22 +4,27 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingRight="20dp"
-    android:paddingLeft="20dp">
+    android:paddingLeft="20dp"
+    android:background="@color/lightblue">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="@string/settings_btn"
         android:textSize="20sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/background"
+            android:textColor="@color/black"
             />
         <Switch
             android:layout_width="wrap_content"
@@ -29,17 +34,36 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/background"
+            android:text="@string/hometimesetting"
+            android:textColor="@color/black"
             />
-        <RadioButton
-            android:layout_width="wrap_content"
+        <Spinner
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:checked="false" />
+            android:layout_weight="1">
+        </Spinner>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="100dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/username"
+            android:textColor="@color/black"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -49,13 +73,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/hometimesetting"
-            />
-        <Spinner
+            android:text="@string/password"
+            android:textColor="@color/black"/>
+        <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1">
-        </Spinner>
+            android:layout_weight="1"/>
     </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/login"
+        android:layout_gravity="center"/>
 
 </LinearLayout>
+
