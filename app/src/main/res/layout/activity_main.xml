@@ -5,7 +5,8 @@
     android:background="@color/lightblue"
     android:paddingRight="20dp"
     android:paddingLeft="20dp">
-
+    <!-- dummy clock image to hopefully later be replaced by a functioning clock that will
+    show correct time -->
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="100dp"
@@ -13,7 +14,6 @@
         android:layout_gravity="center"
         android:layout_marginTop="130dp"
         android:src="@drawable/clock" />
-
     <TextClock
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
@@ -25,12 +25,12 @@
         android:layout_width="match_parent"
         android:gravity="center"
         android:textSize="20sp"
-        android:text="Local time"
-         />
+        android:text="@string/localtime"/>
 
+    <!-- button layout code -->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_marginTop="140dp"
         android:layout_marginBottom="5dp"
         android:orientation="horizontal">

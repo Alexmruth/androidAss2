@@ -5,7 +5,8 @@
     android:background="@color/lightblue"
     android:paddingRight="20dp"
     android:paddingLeft="20dp">
-
+<!-- Landscape version of the home page -->
+    <!-- Changed margintop on top image from 130 to 20dp -->
 <ImageView
     android:id="@+id/imageView"
     android:layout_width="100dp"
@@ -25,7 +26,7 @@
     android:layout_width="match_parent"
     android:gravity="center"
     android:textSize="20sp"
-    android:text="Local time"
+    android:text="@string/localtime"
     />
 
 <LinearLayout

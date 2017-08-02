@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">Assignment1</string>
-
+    <string name="app_name">World Clock</string>
+    //Countries
     <string name="aus">Australia</string>
     <string name="adelaide">Adelaide</string>
     <string name="brisbane">Brisbane</string>
@@ -12,10 +12,12 @@
     <string name="sydney">Sydney</string>
 
     <string name="newyork">New York</string>
-
+    // Buttons
     <string name="home_btn">Home</string>
     <string name="worldclock_btn">World Clock</string>
     <string name="settings_btn">Settings</string>
+    // home page
+    <string name="localtime">Local time</string>
     // settings page
     <string name="background">Background</string>
     <string name="hometimesetting">Home page timezone</string>
