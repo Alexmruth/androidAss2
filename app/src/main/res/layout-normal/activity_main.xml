@@ -67,7 +67,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:onClick="goToLogin"
-            android:text="@string/login_btn"
+            android:text="test"
             android:textSize="20sp" />
         <Button
             android:layout_width="match_parent"
